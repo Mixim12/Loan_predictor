@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Approval</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        .loan-amount {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .loan-term {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Congratulations!</h1>
+    </header>
+    <main>
+        <p>Your loan application has been approved.</p>
+        <p class="loan-amount">Loan Amount: ${{ loan_amount }}</p>
+        <p class="loan-term">Loan Term: {{ loan_term }} months</p>
+    </main>
+</body>
+</html>
