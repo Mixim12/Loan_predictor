@@ -1,7 +1,5 @@
 # Loan Predictor
 
-## About
-
 ## The Loan Approval Predictor
 
 The Loan Approval Predictor is a web-based application that simulates a loan verification process. It provides a user-friendly interface where users can input relevant data, and the system returns a verdict, either "Approved" or "Not Approved," indicating whether their loan application is likely to be accepted or rejected.
@@ -32,7 +30,6 @@ These features make this loan predictor unique, user-friendly, and adaptable for
 ## Table of Contents
 
 - [Loan Predictor](#loan-predictor)
-  - [About](#about)
   - [The Loan Approval Predictor](#the-loan-approval-predictor)
   - [Features](#features)
     - [Technologies Used](#technologies-used)
@@ -94,6 +91,11 @@ python3 python_app/main.py
 ```
 
 ### **Using it with docker**
+
+```shell
+docker build --platform linux/amd64 -t mixim12/loan_predictor:latest .
+docker run -dp 0.0.0.0:3000:3000 mixim12/loan_predictor:latest
+```
 
 ## Usage
 
