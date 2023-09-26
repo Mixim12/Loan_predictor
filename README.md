@@ -2,6 +2,10 @@
 
 ## About
 
+## The Loan Approval Predictor
+
+The Loan Approval Predictor is a web-based application that simulates a loan verification process. It provides a user-friendly interface where users can input relevant data, and the system returns a verdict, either "Approved" or "Not Approved," indicating whether their loan application is likely to be accepted or rejected.
+
 - **Dataset Source**: The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset). It provides valuable data for loan approval prediction.
 
 - **Data Profiling**: For a comprehensive understanding of the dataset, we have conducted web-based data profiling using [ydata-profiling](https://rawgit.com/Mixim12/Loan_predictor/main/data_profiling.html). This profiling offers insights into the dataset's characteristics and helps in preprocessing and analysis.
@@ -16,25 +20,36 @@
 
 - **Docker Support**: The loan predictor is Docker-ready, allowing you to containerize and deploy it effortlessly. Docker ensures consistent and isolated environments, making it easy to run the predictor on various platforms.
 
-These features make this loan predictor unique, user-friendly, and adaptable for continuous improvements and model upgrades.
+These features make this loan predictor unique, user-friendly, and adaptable for continuous improvements and model upgrades.  
+
+### Technologies Used
+
+- Python
+- PyTorch
+- Flask
+- Docker
 
 ## Table of Contents
 
 - [Loan Predictor](#loan-predictor)
   - [About](#about)
+  - [The Loan Approval Predictor](#the-loan-approval-predictor)
   - [Features](#features)
+    - [Technologies Used](#technologies-used)
   - [Table of Contents](#table-of-contents)
   - [Data](#data)
     - [Data features](#data-features)
     - [Data label](#data-label)
     - [Data preparation](#data-preparation)
   - [Getting Started](#getting-started)
-    - [**Using it fromm the terminal**](#using-it-fromm-the-terminal)
+    - [**Using it from the terminal**](#using-it-from-the-terminal)
     - [**Using it with docker**](#using-it-with-docker)
   - [Usage](#usage)
   - [Model Training](#model-training)
-  - [Contributing](#contributing)
-  - [Acknowledgments](#acknowledgments)
+    - [Neural Network Summary](#neural-network-summary)
+    - [Learning Rate Range Test](#learning-rate-range-test)
+  - [Contribution](#contribution)
+  - [License](#license)
 
 ## Data
 
@@ -69,7 +84,7 @@ Finally, I saved the newly normalized dataset into a fresh CSV file for future u
 
 ## Getting Started
 
-### **Using it fromm the terminal**
+### **Using it from the terminal**
 
 ```shell
 git clone https://github.com/Mixim12/Loan_predictor
@@ -86,6 +101,39 @@ The program is running at <http://127.0.0.1:3000> or <http://192.168.1.145:3000>
 
 ## Model Training
 
-## Contributing
+### Neural Network Summary
 
-## Acknowledgments
+The neural network is designed for binary classification tasks and consists of the following components:
+
+- **Input Layer**: Accepts input data of 11.
+
+- **Hidden Layers**:
+  - First Hidden Layer: 128 units with ReLU activation.
+  - Second Hidden Layer: 32 units with ReLU activation.
+
+- **Output Layer**: A single unit with a sigmoid activation function, producing output in the [0, 1] range.
+
+- **Activation Functions**:
+  - ReLU Activation: Applied in the first and second hidden layers to capture complex patterns in the data.
+  - Sigmoid Activation: Used in the output layer for binary classification, providing probability-like outputs.
+
+- **Loss Function**: Binary Cross-Entropy Loss (BCELoss) is used to compute the error between predicted and actual values, which is minimized during training.
+
+- **Optimizer**: Adam optimizer is employed to update the network's weights and biases, optimizing the loss function during the training process.
+
+- **Learning Rate Scheduler**: The OneCycleLR learning rate scheduler is utilized to dynamically adjust the learning rate during training. This technique helps in faster convergence and improved model performance.
+  
+### Learning Rate Range Test
+
+- **Purpose**: Find the optimal learning rate for model training.
+- **Benefits**: Improved model performance, resource efficiency, and training stability.
+- **How It Works**: Define a range of learning rates, train the model, monitor losses, and visualize results.
+- **Key Decision**: Choose the learning rate resulting in the steepest loss decrease.
+
+## Contribution
+
+Contributions to this project are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
