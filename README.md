@@ -12,7 +12,7 @@ The Loan Approval Predictor is a web-based application that simulates a loan ver
 
 - **Web-Based Interface**: The loan predictor comes with a user-friendly web interface powered by Flask, making it accessible through any modern web browser.
 
-- **Pretrained Model**: The model utilized by the loan predictor is pretrained, ensuring accurate and efficient loan predictions without requiring users to train the model themselves.
+- **Pretrained Model**: The model can be used as a pretrained model, ensuring accurate and efficient loan predictions without requiring users to train the model themselves.
 
 - **Upgradable Model**: The PyTorch model is saved using the JIT (Just-In-Time) compilation feature. This means that you can easily upgrade the model without needing access to the main codebase. This flexibility allows for future improvements and enhancements to the prediction capabilities.
 
