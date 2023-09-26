@@ -1,0 +1,8 @@
+version: '3'
+services:
+  loan_predictor_service:
+    image: mixim12/loan_predictor
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - /usr/bin/nvidia-smi:/usr/bin/nvidia-smi
