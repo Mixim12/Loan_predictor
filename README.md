@@ -6,7 +6,7 @@ The Loan Approval Predictor is a web-based application that simulates a loan ver
 
 - **Dataset Source**: The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset). It provides valuable data for loan approval prediction.
 
-- **Data Profiling**: For a comprehensive understanding of the dataset, we have conducted web-based data profiling using [ydata-profiling](https://rawgit.com/Mixim12/Loan_predictor/main/data_profiling.html). This profiling offers insights into the dataset's characteristics and helps in preprocessing and analysis.
+- **Data Profiling**: For a comprehensive understanding of the dataset, we have conducted web-based [data profiling](https://rawgit.com/Mixim12/Loan_predictor/main/data_profiling.html) using ydata-profiling. This profiling offers insights into the dataset's characteristics and helps in preprocessing and analysis.
 
 <a href="https://youtu.be/m85qxmrJwn4">
   <img src="python_app/templates/youtube_social_icon_red.png" alt="YouTube Logo" width="50" height="31" align="left">
