@@ -8,6 +8,8 @@ The Loan Approval Predictor is a web-based application that simulates a loan ver
 
 - **Data Profiling**: For a comprehensive understanding of the dataset, we have conducted web-based data profiling using [ydata-profiling](https://rawgit.com/Mixim12/Loan_predictor/main/data_profiling.html). This profiling offers insights into the dataset's characteristics and helps in preprocessing and analysis.
 
+  [![Loan Approval Predictor video](https://example.com/your-tutorial-thumbnail-image.png)](https://youtu.be/m85qxmrJwn4)
+
 ## Features
 
 - **Web-Based Interface**: The loan predictor comes with a user-friendly web interface powered by Flask, making it accessible through any modern web browser.
