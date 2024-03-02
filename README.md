@@ -13,6 +13,27 @@ The Loan Approval Predictor is a web-based application that simulates a loan ver
   <h2 style="margin-left: 55px;"> Loan Approval Predictor Video</h3>
 </a>
 
+## Table of Contents
+
+- [Loan Predictor](#loan-predictor)
+  - [The Loan Approval Predictor](#the-loan-approval-predictor)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [Technologies Used](#technologies-used)
+  - [Data](#data)
+    - [Data features](#data-features)
+    - [Data label](#data-label)
+    - [Data preparation](#data-preparation)
+  - [Getting Started](#getting-started)
+    - [**Using it from the terminal**](#using-it-from-the-terminal)
+    - [**Using it with docker**](#using-it-with-docker)
+  - [Usage](#usage)
+  - [Model Training](#model-training)
+    - [Neural Network Summary](#neural-network-summary)
+    - [Learning Rate Range Test](#learning-rate-range-test)
+  - [Contribution](#contribution)
+  - [License](#license)
+
 ## Features
 
 - **Web-Based Interface**: The loan predictor comes with a user-friendly web interface powered by Flask, making it accessible through any modern web browser.
@@ -31,27 +52,6 @@ These features make this loan predictor unique, user-friendly, and adaptable for
 - PyTorch
 - Flask
 - Docker
-
-## Table of Contents
-
-- [Loan Predictor](#loan-predictor)
-  - [The Loan Approval Predictor](#the-loan-approval-predictor)
-  - [Features](#features)
-    - [Technologies Used](#technologies-used)
-  - [Table of Contents](#table-of-contents)
-  - [Data](#data)
-    - [Data features](#data-features)
-    - [Data label](#data-label)
-    - [Data preparation](#data-preparation)
-  - [Getting Started](#getting-started)
-    - [**Using it from the terminal**](#using-it-from-the-terminal)
-    - [**Using it with docker**](#using-it-with-docker)
-  - [Usage](#usage)
-  - [Model Training](#model-training)
-    - [Neural Network Summary](#neural-network-summary)
-    - [Learning Rate Range Test](#learning-rate-range-test)
-  - [Contribution](#contribution)
-  - [License](#license)
 
 ## Data
 
