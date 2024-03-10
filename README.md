@@ -7,6 +7,7 @@
   <h2 style="margin-left: 55px;"> Loan Approval Predictor Video</h2>
 </a>
 
+[<img src="python_app/templates/youtube_social_icon_red.png">]([https://link-to-your-URL/](https://youtu.be/m85qxmrJwn4))
 The Loan Approval Predictor is a web-based application that simulates a loan verification process. It provides a user-friendly interface where users can input relevant data, and the system returns a verdict, either "Approved" or "Not Approved," indicating whether their loan application is likely to be accepted or rejected.
 
 - **Dataset Source**: The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset). It provides valuable data for loan approval prediction.
