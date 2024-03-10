@@ -10,7 +10,7 @@ The Loan Approval Predictor is a web-based application that simulates a loan ver
 
 <a href="https://youtu.be/m85qxmrJwn4">
   <img src="python_app/templates/youtube_social_icon_red.png" alt="YouTube Logo" width="50" height="31" align="left">
-  <h2 style="margin-left: 55px;"> Loan Approval Predictor Video</h3>
+  <h2 style="margin-left: 55px;"> Loan Approval Predictor Video</h2>
 </a>
 
 ## Table of Contents
